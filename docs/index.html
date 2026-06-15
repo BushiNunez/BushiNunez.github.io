@@ -1,58 +1,120 @@
 <!DOCTYPE html>
-<html lang="en" >
-
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    
-    <title>Mi plantilla</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Jesús Núñez Encalada - Portafolio</title>
+   
 </head>
-
 <body>
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-                <img class="backdrop linktree">
-                <h2 style="color: #ffffff; padding-top: 20px;">Mi curso de Git y Github</h2>
-            </div>
-    </div>
-    </div>
 
-
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center">
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://platzi.com/cursos/docker-fundamentos/'" type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Mi curso de Docker</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='http://aminespinoza.com'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mi sitio web</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.linkedin.com/in/aminespinoza/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Conecta en mi perfil de LinkedIn</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.instagram.com/aminespinoza10/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Visitame en Instagram</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.youtube.com/aminespinoza'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mira mi canal de Youtube</button>
-                </div>
-            </div>
-    </div>
-    </div>
-
-        <div class="text-center">
-            <a href="https://codepen.io/nightcl4w/pen/dEjreJ" style="color: #34312f;" target="_blank">Creado por OrderMerch</a>
+    <header>
+        <h1>Andre Jesús Núñez Encalada</h1>
+        <h2>Ingeniero Eléctrico | Desarrollador Python | Data Science & IA</h2>
+        <p>📍 Santiago, Chile</p>
+        <div class="contact-info">
+            <a href="mailto:tu-correo@ejemplo.com">Email</a>
+            <a href="https://github.com/tu-usuario" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a>
         </div>
+    </header>
 
+    <div class="container">
+        
+        <!-- Sección Sobre Mí -->
+        <section id="about">
+            <h3>👨‍💻 Sobre Mí</h3>
+            <p>
+                Soy un profesional con formación sólida en Ingeniería Eléctrica, actualmente en transición hacia el área de <strong>Data Science e Inteligencia Artificial</strong>. Mi perfil combina una mentalidad analítica orientada a la eficiencia con habilidades avanzadas en programación. Destaco por mi participación en iniciativas internacionales como Stanford Code In Place y mi capacidad para desarrollar soluciones que integran lógica estructurada y análisis de datos. Poseo un nivel de inglés B1 que continúo perfeccionando.
+            </p>
+        </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- This pre-lander was created by Brandon Nilsson -->
-    <!-- You're welcome to edit, reproduce and change this template as long as original contributation stays present on the website at all times.  -->
+        <!-- Sección de Habilidades -->
+        <section id="skills">
+            <h3>🛠️ Habilidades Técnicas</h3>
+            <div class="skills-grid">
+                
+                <div class="skill-category">
+                    <h4>Lenguajes y Herramientas</h4>
+                    <ul>
+                        <li>Python (Avanzado)</li>
+                        <li>Pandas y librerías de IA</li>
+                        <li>Git y GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Data y Visualización</h4>
+                    <ul>
+                        <li>Análisis de Datos</li>
+                        <li>Power BI</li>
+                        <li>Reportes y Dashboards</li>
+                        <li>Limpieza y Modelado</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Áreas de Expertise</h4>
+                    <ul>
+                        <li>Instalaciones Eléctricas</li>
+                        <li>Optimización de Consumo</li>
+                        <li>Lógica de Algoritmos</li>
+                        <li>Gestión con Notion</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section id="projects">
+            <h3>🚀 Proyectos Destacados</h3>
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <h4>Street Python Fighter</h4>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>OOP</span>
+                        <span>Desarrollo de Videojuegos</span>
+                    </div>
+                    <p>Desarrollo integral de un juego de peleas en 2D programado desde cero. Implementación de bucles de juego, optimización de lógica de colisiones y procesamiento de sprites.</p>
+                    <a href="https://github.com/tu-usuario/street-python-fighter" target="_blank" class="btn">Ver Repositorio</a>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <h4>Análisis de Consumo Eléctrico</h4>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Data Science</span>
+                    </div>
+                    <p>Integración de conocimientos de ingeniería eléctrica con ciencia de datos para crear un portafolio de análisis y optimización de consumos eléctricos en infraestructuras.</p>
+                    <a href="https://github.com/tu-usuario/analisis-consumo" target="_blank" class="btn">Ver Proyecto</a>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <h4>Stanford Code In Place</h4>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Algoritmos</span>
+                    </div>
+                    <p>Participación en el programa educativo de la Universidad de Stanford, resolviendo problemas complejos de lógica de programación y fundamentos informáticos.</p>
+                    <a href="https://github.com/tu-usuario/stanford-code-in-place" target="_blank" class="btn">Ver Código</a>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Andre Jesús Núñez Encalada. Desarrollado con HTML y CSS.</p>
+    </footer>
+
 </body>
-
 </html>
